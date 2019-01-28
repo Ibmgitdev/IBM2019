@@ -22,4 +22,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+    <repository>
+        <id>IBM0008TE</id>
+        <name>NRMIBM0008TE_Release</name>
+        <url>http://localhost:8081/nexus/content/repositories/IBM0008TE/</url>
+    </repository>
+    <snapshotRepository>
+        <id>IBM0008TE_Repo</id>
+        <name>NRM_IBM0008</name>
+        <url>http://localhost:8081/nexus/content/repositories/IBM0008_Repo/</url>
+    </snapshotRepository>
+</distributionManagement>
+  
 </project>
